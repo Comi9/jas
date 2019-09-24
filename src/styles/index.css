@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../assets/fonts/Helvetica/Helvetica.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-Bold';
+  src: url('../assets/fonts/Helvetica/Helvetica-Bold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-BoldOblique';
+  src: url('../assets/fonts/Helvetica/Helvetica-BoldOblique.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-Light';
+  src: url('../assets/fonts/Helvetica/Helvetica-Light.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-LightOblique';
+  src: url('../assets/fonts/Helvetica/Helvetica-LightOblique.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica-Oblique';
+  src: url('../assets/fonts/Helvetica/Helvetica-Oblique.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-Bold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-BoldItalic';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-BoldItalic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-CondensedBlack';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-CondensedBlack.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-CondensedBold';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-CondensedBold.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-Italic';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-Italic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-Light';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-Light.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-LightItalic';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-LightItalic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-Medium';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-Medium.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-MediumItalic';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-MediumItalic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-Thin';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-Thin.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-ThinItalic';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-ThinItalic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-UltraLight';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-UltraLight.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNeue-UltraLightItalic';
+  src: url('../assets/fonts/HelveticaNeue/HelveticaNeue-UltraLightItalic.ttf')  format('truetype');
+}
+
+html, body {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+   font-family: 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}
+
+/* Desktop */
+
+.application header {position: sticky; top: 0; background-color: black; color: white;}
+.application header .inner-section {display: flex; align-items: center; padding: 0.5em 1em 0.8em;}
+.application header .logo {padding: 0 1em; line-height: 2em; align-self: flex-start; white-space: nowrap;}
+.application header .logo a {text-decoration: none; color: white; font-weight: bold; text-transform: uppercase;}
+.application header .logo a .en {position:relative; font-weight: 400; padding-left: 1.5em;}
+.application header .logo a .en::before {position: absolute; display: block; content: ''; width: .8em; height: .8em; background: #E50000; bottom: 3px; left: .25em;}
+.application header .logo a .ro {position:relative; font-weight: 400; padding-right: 1.5em;}
+.application header .logo a .ro::after {position: absolute; display: block; content: ''; width: .8em; height: .8em; background: #E50000; bottom: 3px; right: .25em;}
+.application header nav ul {list-style-type: none; margin: 0; padding: 0; display: flex;}
+.application header nav ul li {padding: 0 1em;}
+.application header nav ul li a {text-decoration: none; color: #c7c7c7; font-weight: bold; text-transform: uppercase; font-family: 'HelveticaNeue-CondensedBlack', 'HelveticaNeue', Helvetica, Arial, sans-serif; font-size: .85em}
+.application header nav ul li.decorated a {color: #E50000;}
+.application header nav ul li a:hover {color: white;}
+.application header nav ul li a.selected {color: whitesmoke;}
+.application header .language {display: flex; margin-right: 6px; margin-left: auto; padding-top: 5px;}
+.application header .language img {width: 1.6em; cursor: pointer; padding: 2px; border: 1px solid white; border-radius: 4px;}
+.application header .misc {padding: 0; font-size: .6em; line-height: initial; font-weight: bold; outline: 0;}
+.application header .menu-container {justify-content: flex-end;}
+.application header .menu-container .menu {background: transparent; border: 0; cursor: pointer; margin-left: auto; white-space: nowrap;}
+.application header .menu span {display: inline-block; margin: 0 2px; width: 6px; height: 6px; border-radius: 100%; background-color: white;}
+
+.application article {padding: 1em; width: 80vw; margin: 0 auto; height: 100vh}
+
+.application aside {}
+
+.application footer {background-color: black; color: white; overflow: auto; text-align: center;}
+
+/* Mobile */
+.application.is-mobile header .logo {padding: 0;}
+.application.is-mobile header nav {}
+.application.is-mobile header nav ul {display: flex; flex-direction: column; text-align: center; border-bottom: 5px solid  #E50000}
+.application.is-mobile header nav ul li {line-height: 2em;}
+.application.is-mobile header nav ul li a {display: block;}
+
+.application.is-mobile article {width: auto}
+
+.application.is-mobile aside {}
+
+.application.is-mobile footer {}
