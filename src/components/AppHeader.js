@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import { withTranslation } from 'react-i18next'
+import brandEN from '../assets/images/brandEN.svg'
+import brandRO from '../assets/images/brandRO.svg'
 import gb from '../assets/images/gb.svg'
 import ro from '../assets/images/ro.svg'
 import i18next from 'i18next'
@@ -62,10 +64,9 @@ class AppHeader extends Component {
           <section className='inner-section'>
             <section className='logo'>
               <NavLink exact to='/'>
-                {this.state.defaultEN ? enBrand : roBrand}
-                <section className='misc'>
-                  {t('Department of Drama and Theatre Studies')}
-                </section>
+                <img
+                  alt='Journal logo'
+                  src={defaultEN ? brandEN : brandRO} />
               </NavLink>
             </section>
 

@@ -25,7 +25,7 @@ export default class App extends Component {
   componentDidMount() { this.modeListener() }
 
   modeListener() {
-    const setLayout = () => this.setState({ isMobile: window.innerWidth < 1024 })
+    const setLayout = () => this.setState({ isMobile: window.innerWidth < 1064 })
     window.addEventListener('load', () => setLayout(), false)
     window.addEventListener('resize', () => setLayout(), false)
   }

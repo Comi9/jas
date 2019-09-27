@@ -1,1 +1,1 @@
-# JAS Jurnalul Artelor Spectacolului - Performing Arts Journal
+# JAS: Jurnalul Artelor Spectacolului - Performing Arts Journal

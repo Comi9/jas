@@ -2,6 +2,7 @@
   "name": "jas",
   "version": "0.1.0",
   "private": true,
+  "author": "Cosmin Popescu",
   "homepage": "https://comi9.github.io/jas/",
   "dependencies": {
     "i18next": "^17.0.16",
