@@ -1,5 +1,5 @@
 export const translationRO = {
-  'Performance Arts Journal': 'Jurnalul Artelor Spectacolului',
+  'Performing Arts Journal': 'Jurnalul Artelor Spectacolului',
   'Department of Drama and Theatre Studies': 'Departamentul de Arta Teatrala',
   'Index': 'Acasa',
   'About': 'Despre',
