@@ -47,7 +47,7 @@ input:focus {
 /* Mobile */
 .application.is-mobile header .logo {padding: 0;}
 .application.is-mobile header nav {}
-.application.is-mobile header nav ul {display: flex; flex-direction: column; text-align: center; border-bottom: 5px solid  #E50000}
+.application.is-mobile header nav ul {display: flex; flex-direction: column; text-align: center; border-bottom: 3px solid  #E50000}
 .application.is-mobile header nav ul li {line-height: 2em;}
 .application.is-mobile header nav ul li a {display: block;}
 
@@ -56,3 +56,4 @@ input:focus {
 .application.is-mobile aside {}
 
 .application.is-mobile footer {}
+.application.is-mobile footer img {width: 100%;}
