@@ -9,7 +9,7 @@ import About from './routes/About'
 import Boards from './routes/Boards'
 import Instructions from './routes/Instructions'
 import Review from './routes/Review'
-import CallForPaper from './routes/CallForPaper'
+import CallForPapers from './routes/CallForPapers'
 import Archive from './routes/Archive'
 import Contact from './routes/Contact'
 
@@ -47,7 +47,7 @@ export default class App extends Component {
               <Route path='/boards' component={Boards} />
               <Route path='/instructions' component={Instructions} />
               <Route path='/review' component={Review} />
-              <Route path='/call-for-paper' component={CallForPaper} />
+              <Route path='/call-for-papers' component={CallForPapers} />
               <Route path='/archive' component={Archive} />
               <Route path='/contact' component={Contact} />
             </article>

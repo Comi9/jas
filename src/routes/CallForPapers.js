@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withTranslation } from 'react-i18next'
 import i18next from 'i18next'
 
-class CallForPaper extends Component {
+class CallForPapers extends Component {
   render() {
     const { t } = this.props
 
@@ -14,4 +14,4 @@ class CallForPaper extends Component {
   }
 }
 
-export default withTranslation()(CallForPaper)
+export default withTranslation()(CallForPapers)

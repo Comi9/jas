@@ -41,7 +41,8 @@ input:focus {
 
 .application aside {}
 
-.application footer {background-color: black; color: white; overflow: auto; text-align: center;}
+.application footer {overflow: auto; text-align: center; border-top: 3px solid #E50000; padding-top: .7em;}
+.application footer h4 {margin: .5em 0 0; background-color: black; color: white; font-size: .85em; border-top: 3px solid #E50000; font-weight: 400; line-height: 3em;}
 
 /* Mobile */
 .application.is-mobile header .logo {padding: 0;}

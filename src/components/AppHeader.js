@@ -45,7 +45,7 @@ class AppHeader extends Component {
           <li><NavLink activeClassName='selected' to='/boards'>{t('Boards')}</NavLink></li>
           <li><NavLink activeClassName='selected' to='/instructions'>{t('Instructions')}</NavLink></li>
           <li><NavLink activeClassName='selected' to='/review'>{t('Review')}</NavLink></li>
-          <li className='decorated'><NavLink activeClassName='selected' to='/call-for-paper'>{t('Call for papers')}</NavLink></li>
+          <li className='decorated'><NavLink activeClassName='selected' to='/call-for-papers'>{t('Call for papers')}</NavLink></li>
           <li><NavLink activeClassName='selected' to='/archive'>{t('Archive')}</NavLink></li>
           <li><NavLink activeClassName='selected' to='/contact'>{t('Contact')}</NavLink></li>
         </ul>
