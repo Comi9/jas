@@ -37,7 +37,7 @@ export default class App extends Component {
     return (
       <Suspense fallback={<Loader />}>
         <div className={`application ${isMobile ? 'is-mobile' : ''}`}>
-          <Router>
+          <Router basename='/jas'>
             <AppHeader
               isMobile={isMobile}
               changeLanguage={this.changeLanguage} />
