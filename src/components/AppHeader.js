@@ -59,6 +59,7 @@ class AppHeader extends Component {
           onClick={this.toggleLanguage} />
       )
     }
+    console.log(process.env )
     return (
         <header className={`${isOpen ? 'is-open' : ''}`}>
           <section className='inner-section'>
