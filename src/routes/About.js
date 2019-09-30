@@ -5,7 +5,7 @@ import i18next from 'i18next'
 class About extends Component {
   render() {
     const { t } = this.props
-    
+
     return (
       <>
         <h1>{t('About')}</h1>

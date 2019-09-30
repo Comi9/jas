@@ -32,7 +32,7 @@ input:focus {
 .application header nav ul li a:hover {color: white;}
 .application header nav ul li a.selected {color: whitesmoke;}
 .application header .language {display: flex; margin-left: auto;}
-.application header .language img {width: 1.6em; cursor: pointer; padding: 2px; border: 1px solid white; border-radius: 4px;}
+.application header .language img {width: 1.6em; height: 100%; cursor: pointer; padding: 2px; border: 1px solid white; border-radius: 4px;}
 .application header .menu-container {display: flex; justify-content: center; margin-left: 6px;}
 .application header .menu-container .menu {background: transparent; border: 0; cursor: pointer; margin-left: auto; white-space: nowrap;}
 .application header .menu span {display: inline-block; margin: 0 2px; width: 6px; height: 6px; border-radius: 100%; background-color: white;}

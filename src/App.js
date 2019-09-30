@@ -1,5 +1,5 @@
 import React, { Component, Suspense } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 import AppHeader from './components/AppHeader'
 import AppFooter from './components/AppFooter'
 import i18next from 'i18next'
@@ -37,7 +37,7 @@ export default class App extends Component {
     return (
       <Suspense fallback={<Loader />}>
         <div className={`application ${isMobile ? 'is-mobile' : ''}`}>
-          <Router basename='//comi9.github.io/jas/'>
+          <HashRouter>
             <AppHeader
               isMobile={isMobile}
               changeLanguage={this.changeLanguage} />
@@ -51,7 +51,7 @@ export default class App extends Component {
               <Route path='/archive' component={Archive} />
               <Route path='/contact' component={Contact} />
             </article>
-          </Router>
+          </HashRouter>
           <AppFooter />
         </div>
       </Suspense>

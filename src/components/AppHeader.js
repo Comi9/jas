@@ -35,8 +35,6 @@ class AppHeader extends Component {
   render() {
     const { isOpen, defaultEN } = this.state
     const { t, isMobile } = this.props
-    const enBrand = <>Performing Arts <span className='en'>Journal</span></>
-    const roBrand = <><span className='ro'>Jurnalul</span> Artelor Spectacolului</>
 
     const routeLinks = (
       <nav>
