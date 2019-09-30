@@ -5,15 +5,45 @@ html, body {
 body {
   position: relative;
   margin: 0;
-   font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 button:focus,
 input:focus {
-    outline: none;
+  outline: none;
 }
+.fs0-25em {font-size: 0.25em;}
+.fs0-5em {font-size: 0.5em;}
+.fs0-75em {font-size: 0.75em;}
+.fs1em {font-size: 1em;}
+.fs1-25em {font-size: 1.25em;}
+.fs1-5em {font-size: 1.5em;}
+.fs1-75em {font-size: 1.75em;}
+.fs2em {font-size: 2em;}
+.fs2-25em {font-size: 2em;}
+.fs2-5em {font-size: 2em;}
+.fs2-75em {font-size: 2em;}
+.fs3em {font-size: 3em;}
+.fs3-25em {font-size: 3em;}
+.fs3-5em {font-size: 3em;}
+.fs3-75em {font-size: 3em;}
+.fs4em {font-size: 4em;}
+.fs4-25em {font-size: 4em;}
+.fs4-5em {font-size: 4em;}
+.fs4-75em {font-size: 4em;}
+
+.fw100 {font-weight: 100;}
+.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}
+.fw500 {font-weight: 500;}
+.fw700 {font-weight: 700;}
+.fw900 {font-weight: 900;}
+
+.tal {text-align: left;}
+.tac {text-align: center;}
+.tar {text-align: right;}
 
 /* Desktop */
 
@@ -37,7 +67,7 @@ input:focus {
 .application header .menu-container .menu {background: transparent; border: 0; cursor: pointer; margin-left: auto; white-space: nowrap;}
 .application header .menu span {display: inline-block; margin: 0 2px; width: 6px; height: 6px; border-radius: 100%; background-color: white;}
 
-.application article {padding: 1em; width: 80vw; margin: 0 auto; height: 100vh}
+.application article {padding: 1em; width: 80vw; margin: 0 auto; min-height: 80vh; font-family: 'Oswald', sans-serif;}
 
 .application aside {}
 
@@ -57,3 +87,8 @@ input:focus {
 
 .application.is-mobile footer {}
 .application.is-mobile footer img {width: 100%;}
+
+/* Pages */
+.about-page {}
+.about-page p {margin-bottom: 1.5em}
+.about-page p span { border-bottom: 1px solid #aaa}

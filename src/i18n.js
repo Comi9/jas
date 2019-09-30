@@ -3,10 +3,14 @@ import { initReactI18next } from 'react-i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
 import { translationRO } from './locales/ro/translation'
+import { translationEN } from './locales/en/translation'
 
 const resources = {
   ro: {
     translation: translationRO
+  },
+  en: {
+    translation: translationEN
   }
 }
 
@@ -15,9 +19,6 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-
-    keySeparator: false,
-
     interpolation: {
       escapeValue: false
     }
