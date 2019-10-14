@@ -7,7 +7,7 @@ class Index extends Component {
     const { t } = this.props
     return (
       <>
-        <h1>{t('Index')}</h1>
+        <h1>{t('menu.index')}</h1>
       </>
     )
   }

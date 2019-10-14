@@ -8,7 +8,7 @@ class CallForPapers extends Component {
 
     return (
       <>
-        <h1>{t('Call For Papers')}</h1>
+        <h1>{t('menu.call_for_papers')}</h1>
       </>
     )
   }

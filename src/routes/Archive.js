@@ -8,7 +8,35 @@ class Archive extends Component {
 
     return (
       <>
-        <h1>{t('Archive')}</h1>
+        <h1>{t('menu.archive')}</h1>
+        <h3 className='secondary-color'>{t('2019')}</h3>
+        <section className='archive-list'>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+          <div className='archive-item'>
+            <img src='/images/JAS-1-2019-wb.png' title='JAS' alt='JAS' />
+          </div>
+        </section>
+
+        <h3 className='secondary-color'>{t('201x')}</h3>
+        <h3 className='secondary-color'>{t('201x')}</h3>
+        <h3 className='secondary-color'>{t('201x')}</h3>
       </>
     )
   }

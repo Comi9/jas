@@ -8,7 +8,7 @@ class Review extends Component {
 
     return (
       <>
-        <h1>{t('Review')}</h1>
+        <h1>{t('menu.review')}</h1>
       </>
     )
   }

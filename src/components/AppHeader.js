@@ -39,13 +39,13 @@ class AppHeader extends Component {
     const routeLinks = (
       <nav>
         <ul>
-          <li><NavLink activeClassName='selected' to='/about'>{t('About')}</NavLink></li>
-          <li><NavLink activeClassName='selected' to='/boards'>{t('Boards')}</NavLink></li>
-          <li><NavLink activeClassName='selected' to='/instructions'>{t('Instructions')}</NavLink></li>
-          <li><NavLink activeClassName='selected' to='/review'>{t('Review')}</NavLink></li>
-          <li className='decorated'><NavLink activeClassName='selected' to='/call-for-papers'>{t('Call for papers')}</NavLink></li>
-          <li><NavLink activeClassName='selected' to='/archive'>{t('Archive')}</NavLink></li>
-          <li><NavLink activeClassName='selected' to='/contact'>{t('Contact')}</NavLink></li>
+          <li><NavLink activeClassName='selected' to='/about'>{t('menu.about')}</NavLink></li>
+          <li><NavLink activeClassName='selected' to='/boards'>{t('menu.boards')}</NavLink></li>
+          <li><NavLink activeClassName='selected' to='/instructions'>{t('menu.instructions')}</NavLink></li>
+          <li><NavLink activeClassName='selected' to='/review'>{t('menu.review')}</NavLink></li>
+          <li className='decorated'><NavLink activeClassName='selected' to='/call-for-papers'>{t('menu.call_for_papers')}</NavLink></li>
+          <li><NavLink activeClassName='selected' to='/archive'>{t('menu.archive')}</NavLink></li>
+          <li><NavLink activeClassName='selected' to='/contact'>{t('menu.contact')}</NavLink></li>
         </ul>
       </nav>
     )

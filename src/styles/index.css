@@ -12,6 +12,8 @@ body {
 
 a {text-decoration: none; color: inherit;}
 
+img {width: 100%;}
+
 button:focus,
 input:focus {
   outline: none;
@@ -50,6 +52,8 @@ input:focus {
 
 .flex-row {display: flex; flex-direction: row}
 .flex-column {display: flex; flex-direction: column}
+
+.secondary-color {color: #656565}
 
 /* Desktop */
 
@@ -103,3 +107,6 @@ input:focus {
 .scientific-board .flex-row {margin: auto 300px;}
 .editorial-board {}
 .page-content {width: 100%;}
+
+.archive-list {display: flex; flex-direction: row; flex-wrap: wrap;}
+.archive-item {width: 180px; height: 270px; border: 1px solid gray; align-items: center; display: flex; border-radius: 4px; padding: 8px; margin: 10px}

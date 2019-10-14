@@ -8,7 +8,7 @@ class Instructions extends Component {
 
     return (
       <>
-        <h1>{t('Instructions')}</h1>
+        <h1>{t('menu.instructions')}</h1>
       </>
     )
   }
