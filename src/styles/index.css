@@ -48,6 +48,9 @@ input:focus {
 .tac {text-align: center;}
 .tar {text-align: right;}
 
+.flex-row {display: flex; flex-direction: row}
+.flex-column {display: flex; flex-direction: column}
+
 /* Desktop */
 
 .application header {position: sticky; top: 0; background-color: black; color: white;}
@@ -95,3 +98,8 @@ input:focus {
 .about-page {}
 .about-page p {margin-bottom: 1.5em}
 .about-page p span {}
+
+.scientific-board {}
+.scientific-board .flex-row {margin: auto 300px;}
+.editorial-board {}
+.page-content {width: 100%;}

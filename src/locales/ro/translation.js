@@ -22,6 +22,14 @@ export const translationRO = {
       'part7': 'UNIVERSITATEA „LUCIAN BLAGA” DIN SIBIU',
       'part8': 'EDITURA UNIVERSITĂŢII „LUCIAN BLAGA” DIN SIBIU'
     },
+    boards: {
+      'sicentific_board': 'Bord Ştiinţific',
+      'editorial_board': 'Board Editorial',
+    },
+    instructions: {},
+    review: {},
+    call_for_papers: {},
+    archive: {},
     contact: {
       'part1': 'Centrul de Cercetări Avansate în Domeniul Artelor Spectacolului',
       'part2': 'Facultatea de Litere şi Arte',

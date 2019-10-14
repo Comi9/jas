@@ -22,6 +22,14 @@ export const translationEN = {
       'part7': 'LUCIAN BLAGA UNIVERSITY OF SIBIU',
       'part8': 'LUCIAN BLAGA UNIVERSITY OF SIBIU PUBLISHING HOUSE'
     },
+    boards: {
+      'sicentific_board': 'Scientific Board',
+      'editorial_board': 'Editorial Board',
+    },
+    instructions: {},
+    review: {},
+    call_for_papers: {},
+    archive: {},
     contact: {
       'part1': 'Centrul de Cercetări Avansate în Domeniul Artelor Spectacolului',
       'part2': 'Faculty of Letters and Arts',
