@@ -12,7 +12,7 @@ class Archive extends Component {
 
         <h3 className='secondary-color'>{t('2019')}</h3>
         <section className='archive-list'>
-          <a className='archive-item' href='archive/jas-2019-1.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2019-1.pdf' target='_blank'>
             <img src='images/jas-2019-1.png' title='JAS' alt='JAS' />
             <div className='description'>1/2019</div>
           </a>
@@ -24,11 +24,11 @@ class Archive extends Component {
 
         <h3 className='secondary-color'>{t('2015')}</h3>
         <section className='archive-list'>
-          <a className='archive-item' href='archive/jas-2015-1.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2015-1.pdf' target='_blank'>
             <img src='images/jas-2015-1.png' title='JAS' alt='JAS' />
             <div className='description'>1/2015</div>
           </a>
-          <a className='archive-item' href='archive/jas-2015-2.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2015-2.pdf' target='_blank'>
             <img src='images/jas-2015-2.png' title='JAS' alt='JAS' />
             <div className='description'>2/2015</div>
           </a>
@@ -36,7 +36,7 @@ class Archive extends Component {
 
         <h3 className='secondary-color'>{t('2014')}</h3>
         <section className='archive-list'>
-          <a className='archive-item' href='archive/jas-2014-1.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2014-1.pdf' target='_blank'>
             <img src='images/jas-2014-1.png' title='JAS' alt='JAS' />
             <div className='description'>1/2014</div>
           </a>
@@ -44,7 +44,7 @@ class Archive extends Component {
 
         <h3 className='secondary-color'>{t('2011')}</h3>
         <section className='archive-list'>
-          <a className='archive-item' href='archive/jas-2011-1.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2011-1.pdf' target='_blank'>
             <img src='images/jas-2011-1.png' title='JAS' alt='JAS' />
             <div className='description'>1/2011</div>
           </a>
@@ -52,11 +52,11 @@ class Archive extends Component {
 
         <h3 className='secondary-color'>{t('2010')}</h3>
         <section className='archive-list'>
-          <a className='archive-item' href='archive/jas-2010-1.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2010-1.pdf' target='_blank'>
             <img src='images/jas-2010-1.png' title='JAS' alt='JAS' />
             <div className='description'>1/2010</div>
           </a>
-          <a className='archive-item' href='archive/jas-2010-2.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2010-2.pdf' target='_blank'>
             <img src='images/jas-2010-2.png' title='JAS' alt='JAS' />
             <div className='description'>1/2010</div>
           </a>
@@ -64,7 +64,7 @@ class Archive extends Component {
 
         <h3 className='secondary-color'>{t('2009')}</h3>
         <section className='archive-list'>
-          <a className='archive-item' href='archive/jas-2009-1.pdf' target='_blank'>
+          <a className='archive-item' href='https://comi9.github.io/jas/archive/jas-2009-1.pdf' target='_blank'>
             <img src='images/jas-2009-1.png' title='JAS' alt='JAS' />
             <div className='description'>1/2009</div>
           </a>

@@ -35,7 +35,7 @@ export const translationEN = {
     contact: {
       'part1': 'Centrul de Cercetări Avansate în Domeniul Artelor Spectacolului',
       'part2': 'Faculty of Letters and Arts',
-      'part3': 'Victoriei Bvd. 5-7, 550024, Sibiu, Sibiu',
+      'part3': '5-7 Victoriei Blvd, 550024, Sibiu, Romania',
       'part4': 'https://artsib.ro',
       'part5': 'http://reviste.ulbsibiu.ro/jas',
       'part6': 'ion.tomus@ulbsibiu.ro',
