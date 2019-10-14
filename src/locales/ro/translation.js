@@ -29,7 +29,9 @@ export const translationRO = {
     instructions: {},
     review: {},
     call_for_papers: {},
-    archive: {},
+    archive: {
+      'publishing': 'în curs de publicare',
+    },
     contact: {
       'part1': 'Centrul de Cercetări Avansate în Domeniul Artelor Spectacolului',
       'part2': 'Facultatea de Litere şi Arte',
