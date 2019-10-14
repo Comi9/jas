@@ -7,9 +7,15 @@ class Contact extends Component {
     const { t } = this.props
 
     return (
-      <>
-        <h1>{t('Contact')}</h1>
-      </>
+      <div className='contact-page tac fw400 fs1-25em'>
+        <p><span>{t('pages.contact.part1')}</span></p>
+        <p className='fw300 fs0-75em'><span>{t('pages.contact.part2')}</span></p>
+        <p className='fw300 fs0-75em'><span>{t('pages.contact.part3')}</span></p>
+        <p><span><a href='https://artsib.ro'>{t('pages.contact.part4')}</a></span></p>
+        <p><span><a href='http://reviste.ulbsibiu.ro/jas'>{t('pages.contact.part5')}</a></span></p>
+        <p><span>{t('pages.contact.part6')}</span></p>
+        <p><span>{t('pages.contact.part7')}</span></p>
+      </div>
     )
   }
 }

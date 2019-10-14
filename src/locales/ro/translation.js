@@ -12,7 +12,7 @@ export const translationRO = {
     'contact': 'Contact',
   },
   pages: {
-    contact: {
+    about: {
       'part1': 'Această publicaţie este editată de',
       'part2': 'CENTRUL DE CERCETĂRI AVANSATE ÎN DOMENIUL ARTELOR SPECTACOLULUI (CAVAS)',
       'part3': 'în colaborare cu',
@@ -21,6 +21,15 @@ export const translationRO = {
       'part6': 'DEPARTAMENTUL DE ARTĂ TEATRALĂ din FACULTATEA DE LITERE ŞI ARTE',
       'part7': 'UNIVERSITATEA „LUCIAN BLAGA” DIN SIBIU',
       'part8': 'EDITURA UNIVERSITĂŢII „LUCIAN BLAGA” DIN SIBIU'
-    }
+    },
+    contact: {
+      'part1': 'Centrul de Cercetări Avansate în Domeniul Artelor Spectacolului',
+      'part2': 'Facultatea de Litere şi Arte',
+      'part3': 'B-dul Victoriei, nr. 5-7, 550024, Sibiu, Sibiu',
+      'part4': 'https://artsib.ro',
+      'part5': 'http://reviste.ulbsibiu.ro/jas',
+      'part6': 'ion.tomus@ulbsibiu.ro',
+      'part7': 'andrei.serban@ulbsibiu.ro'
+    },
   }
 }

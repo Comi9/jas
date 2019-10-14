@@ -10,10 +10,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {text-decoration: none; color: inherit;}
+
 button:focus,
 input:focus {
   outline: none;
 }
+
 .fs0-25em {font-size: 0.25em;}
 .fs0-5em {font-size: 0.5em;}
 .fs0-75em {font-size: 0.75em;}
@@ -91,4 +94,4 @@ input:focus {
 /* Pages */
 .about-page {}
 .about-page p {margin-bottom: 1.5em}
-.about-page p span { border-bottom: 1px solid #aaa}
+.about-page p span {}
