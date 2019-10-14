@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jas/static/css/main.199ffe99.chunk.css",
+    "main.css": "/jas/static/css/main.a014a348.chunk.css",
     "main.js": "/jas/static/js/main.64d2935a.chunk.js",
     "main.js.map": "/jas/static/js/main.64d2935a.chunk.js.map",
     "runtime-main.js": "/jas/static/js/runtime-main.4fe8aa02.js",
@@ -8,9 +8,9 @@
     "static/js/2.2aee0754.chunk.js": "/jas/static/js/2.2aee0754.chunk.js",
     "static/js/2.2aee0754.chunk.js.map": "/jas/static/js/2.2aee0754.chunk.js.map",
     "index.html": "/jas/index.html",
-    "precache-manifest.bd6029a02c63c5a036e3d182977a4cb3.js": "/jas/precache-manifest.bd6029a02c63c5a036e3d182977a4cb3.js",
+    "precache-manifest.c8c270745bbe3f2e9d5bed31709b5011.js": "/jas/precache-manifest.c8c270745bbe3f2e9d5bed31709b5011.js",
     "service-worker.js": "/jas/service-worker.js",
-    "static/css/main.199ffe99.chunk.css.map": "/jas/static/css/main.199ffe99.chunk.css.map",
+    "static/css/main.a014a348.chunk.css.map": "/jas/static/css/main.a014a348.chunk.css.map",
     "static/media/brandEN.svg": "/jas/static/media/brandEN.129162d4.svg",
     "static/media/brandRO.svg": "/jas/static/media/brandRO.764c58e1.svg",
     "static/media/gb.svg": "/jas/static/media/gb.d3ddd602.svg",
